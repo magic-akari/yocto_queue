@@ -1,4 +1,4 @@
-interface Node<T = unknown> {
+interface Node<T> {
   value: T;
   next?: Node<T>;
 }
