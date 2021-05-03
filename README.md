@@ -5,7 +5,7 @@ Same as [yocto-queue](https://www.npmjs.com/package/yocto-queue) but for Deno.
 ## Usage
 
 ```typescript
-import { Queue } from "https://github.com/magic-akari/yocto_queue/queue.ts";
+import { Queue } from "https://deno.land/x/yocto_queue@v0.1.1/mod.ts";
 
 const queue = new Queue();
 
