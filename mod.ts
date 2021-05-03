@@ -32,7 +32,7 @@ export class Queue<T = unknown> implements Iterable<T> {
       return;
     }
 
-    this.#head = this.#head!.next;
+    this.#head = current.next;
     this.#size -= 1;
 
     return current.value;
