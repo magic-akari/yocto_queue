@@ -6,7 +6,7 @@
   "main": "lib/queue.js",
   "types": "lib/queue.d.ts",
   "sideEffects": false,
-  "packageManager": "pnpm@7.0.1",
+  "packageManager": "pnpm@7.33.6",
   "scripts": {
     "build": "tsc"
   },
